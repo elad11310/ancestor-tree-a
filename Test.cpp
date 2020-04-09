@@ -11,7 +11,7 @@
  */
 
 #include "doctest.h"
-#include "AncestorTree.hpp"
+#include "FamilyTree.hpp"
 
 using namespace family;
 
