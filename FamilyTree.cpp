@@ -257,7 +257,7 @@ std::string Tree::find(std::string name) {
 
     Node *temp = search(name, root, true);
     if (temp == nullptr) {
-        throw std::invalid_argument("The tree cannot handle the " + name + " relation");
+        throw std::invalid_argument("The tree cannot handle the '" + name + "' relation");
     }
     return temp->getName();
 
